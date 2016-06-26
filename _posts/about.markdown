@@ -1,7 +1,8 @@
 ---
 published: true
 title: About
-layout: page
+layout: post
+permalink: about.html
 ---
 Being a dad is messy … not just the many spills and broken dishes and dirty kitchens and finger-painted walls you have to clean up, but messy because nothing ever goes as planned.
 
