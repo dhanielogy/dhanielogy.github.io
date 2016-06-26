@@ -9,7 +9,7 @@ layout: default
 </div>
 <h3><b>Posted:</b> {{ page.date | date_to_string }}</h3>
 <div class="related">
-  <h3>Related Posts</h3>
+  <h3><b>Related Posts</b></h3>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>
@@ -24,19 +24,3 @@ layout: default
   </ul>
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
