@@ -1,0 +1,7 @@
+---
+published: true
+title: Contact
+layout: post
+permalink: /contact.html
+---
+Contact
