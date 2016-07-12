@@ -3,6 +3,8 @@ published: true
 title: On Being a Dad
 layout: post
 ---
+<center><b>June 19, 2016<b></center> 
+
 Being a dad is messy … not just the many spills and broken dishes and dirty kitchens and finger-painted walls you have to clean up, but messy because nothing ever goes as planned.
 
 It’s messy because you start out with the best of intentions, hoping to be super dad and loving and perfect, and then it all goes to hell.
