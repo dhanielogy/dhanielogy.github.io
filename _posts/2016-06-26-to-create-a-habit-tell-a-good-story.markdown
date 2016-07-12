@@ -3,6 +3,8 @@ published: true
 title: To Create a Habit, Tell a Good Story
 layout: post
 ---
+_**Posted: June 26, 2016**_
+
 If you want to create a new exercise habit (for example), you might tell yourself something like this:
 
 “This is going to be amazing, I’m going to get fit and look incredible and be super healthy!”
