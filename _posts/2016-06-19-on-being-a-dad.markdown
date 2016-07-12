@@ -3,7 +3,7 @@ published: true
 title: On Being a Dad
 layout: post
 ---
-<center><b>June 19, 2016<b></center> 
+**Posted: June 19, 2016**
 
 Being a dad is messy … not just the many spills and broken dishes and dirty kitchens and finger-painted walls you have to clean up, but messy because nothing ever goes as planned.
 
