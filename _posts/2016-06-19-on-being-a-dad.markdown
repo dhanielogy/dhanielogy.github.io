@@ -29,4 +29,4 @@ You do whatever you can for them, despite the fears, amidst the uncertainty, bec
 
 You aren’t alone, of course. You are joined in this uncertain journey by their loving mother(s), who are amazing and who bear the brunt of the burdens and messiness and uncertainty. You have their loving grandparents, their aunts and uncles, everyone around you helping these kids through life, helping you deal with the uncertainty. The love of all these wonderful people help you through.
 
-In the end, they grow up and become adults, and then the uncertainty only increases. You don’t know how they’ll deal with life, but you know they’ll be amazing, because they too have learned to live amidst the uncertainty anchored in the unending groundlessness by their love.
+In the end, they grow up and become adults, and then the uncertainty only increases. You don’t know how they’ll deal with life, but you know they’ll be amazing, because they too have learned to live amidst the uncertainty anchored in the unending groundlessness by their love. DWB
