@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<title>Random or Daily Quotes - Demo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+#quote { /*style for quote division*/
+position:relative;
+width:100%;
+height:70px;
+border:0px solid black;
+font-family:sans-serif;
+font-size:100%;
+text-align:center;
+padding:3px;
+background-color:white;
+}
+#auth { /*style for quote author, if any*/
+position:absolute;
+font-family:calibri;
+font-size:120%;
+bottom:5px;
+right:50px;
+
+}
+</style>
+
+<script type="text/javascript">
+
+/*///////////////////////////////
+* Random or Daily Quotes Script © John Davenport Scheuer
+* as first seen in http://www.dynamicdrive.com/forums
+* user name jscheuer1 - This credit must remain for
+* legal use. Ver Date: 4/1/2006
+///////////////////////////////*/
+
+var method=1 //Set to 1 for rotating daily, 0 for random each page load
+
+////////////BEGIN QUOTES: (Start Editing after next line)//////////
+var quotes="\
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem.~Plato^\
+Accusantium doloremque laudantium totam rem aperiam.^\
+Eaque ipsa quae ab illo inventore veritatis et quasi architecto.~Plato^\
+Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.^\
+Voluptas sit aspernatur aut odit aut fugit.~Plato^\
+Sed quia consequuntur magni dolores eos qui ratione.^\
+Voluptatem sequi nesciunt. Neque porro quisquam est.~St Yohanes Salib^\
+Qui dolorem ipsum quia dolor sit amet.^\
+Illegitimi Non Carborundum.~General 'Vinegar Joe' Stilwell^\
+Consectetur, adipisci velit sed quia non numquam eius modi.~Plato^\
+Tempora incidunt ut labore et dolore magnam aliquam quaerat.^\
+Voluptatem. Ut enim ad minima veniam.~St Yohanes Salib^\
+Quis nostrum exercitationem ullam corporis suscipit laboriosam.^\
+Nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum.~Plato^\
+Iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.^\
+Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?~Socrates^\
+" ///////////END QUOTES (Stop Editing)////////////
+
+quotes=quotes.split("^")
+quotes.length=quotes.length-1
+if(method){
+var qdate=new Date()
+var qnum=Math.ceil((qdate.valueOf()-new Date(qdate.setMonth(0)).setDate(1))/(1000*60*60*24))%(quotes.length-1)
+}
+else
+var qnum=Math.floor(quotes.length*Math.random())
+</script>
+</head>
+<body>
+<br>
+<br>
+<br>
+
+<!-- Begin Body Section of Quote Script -->
+<noscript><div id="quote">"Quis nostrum exercitationem ullam corporis suscipit laboriosam."<span id="auth">&nbsp;~ &nbsp;Plato</span></div></noscript>
+<script type="text/javascript">
+document.write('<div id="quote"></div>')
+var quotediv=document.getElementById?document.getElementById('quote'):documet.all['quote']
+quotediv.innerHTML=/~/.test(quotes[qnum])? '"'+quotes[qnum].replace(/~/, '"<span id="auth">&nbsp;~ &nbsp;')+'&nbsp;</span>' : '"'+quotes[qnum]+'"'
+</script>
+<!-- End Body Section of Quote Script -->
+<br>
+<br>
+<br>
+
+    
+</body>
+</html>
