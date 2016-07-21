@@ -1,6 +1,7 @@
 ---
+published: true
 layout: post
-title: selasa pekan biasa xvi
+title: Selasa Pekan Biasa XVI
 ---
 
 # Selasa Pekan Biasa XVI Tahun II
